@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: #0F0;
+    font-family: 'Consolas', monospace;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #messages {
+    margin-left: 1em;
+    list-style: none;
+  }
+  
+  #form {
+    display: flex;
+  }
+  
+  input, label {
+    display: block;
+  }
+  
+  input {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #0F0;
+    padding: 1em .5em;
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Consolas', monospace;
+    flex: 1;
+  }
+  
+  label {
+    display: block;
+    padding: 1em .5em;
+    font-size: 1.5em;
+  }
+
+li {
+    position: relative;
+    padding: 5px 20px;
+    margin-bottom: 6px;
+    width: 80vw;
+    border-radius: 4px;
+    background: #2c332f;
+}
+
+li::before {content: '$';position: absolute;left: -15px;}
+
+li:nth-child(even) {
+    background: #172c19;
+    margin-left: 20px;
+}
+
+h1 {
+    margin: 20px 0 30px;
+    letter-spacing: 30px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tnws",
+  "version": "1.0.0",
+  "description": "Node with Web sockets",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inna-i/tnws.git"
+  },
+  "author": "innai",
+  "bugs": {
+    "url": "https://github.com/inna-i/tnws/issues"
+  },
+  "homepage": "https://github.com/inna-i/tnws#readme",
+  "dependencies": {
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "lite-server": "^2.5.4"
+  }
+}
