@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/inna-i/tnws#readme",
   "dependencies": {
-    "ws": "^7.2.1"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "http-server": "^0.12.1",
